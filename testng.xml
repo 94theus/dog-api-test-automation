@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite Testes Dog API">
+    <test name="Testes Endpoints Dog API">
+        <classes>
+            <class name="com.testeautomacaoapi.tests.GetBreedsListTests"/>
+            <class name="com.testeautomacaoapi.tests.GetBreedImagesTests"/>
+            <class name="com.testeautomacaoapi.tests.GetRandomImageTests"/>
+        </classes>
+    </test>
+</suite>
